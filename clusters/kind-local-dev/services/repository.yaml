@@ -6,4 +6,4 @@ metadata:
 spec:
   type: oci
   interval: 5m0s
-  url: oci://public.ecr.aws/n6m7s8b2/service-chart
+  url: oci://registry-1.docker.io/hanselchristopher001/service-chart
