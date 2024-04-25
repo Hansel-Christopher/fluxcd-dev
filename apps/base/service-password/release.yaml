@@ -6,7 +6,7 @@ spec:
   releaseName: service-password
   chart:
     spec:
-      chart: service-chart
+      chart: service-chart-repo
       sourceRef:
         kind: HelmRepository
         name: service-chart
