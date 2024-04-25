@@ -1,9 +1,9 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: password-generator
+  name: service-password
 spec:
-  releaseName: password-generator
+  releaseName: service-password
   chart:
     spec:
       chart: service-chart
