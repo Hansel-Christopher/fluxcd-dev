@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
   name: service-chart
-  namespace: flux-system
+  namespace: services
 spec:
   interval: 5m0s
   url: oci://public.ecr.aws/n6m7s8b2/service-chart
