@@ -5,6 +5,7 @@ metadata:
   namespace: services
 spec:
   chart:
+    spec:
       version: "0.1.0"
   values:
     replicaCount: 1
