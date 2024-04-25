@@ -5,4 +5,4 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  url: file:///Users/hanselchristopher/Dev/Cognigy/Kubernetes/service-chart
+  url: oci://public.ecr.aws/n6m7s8b2/service-chart
