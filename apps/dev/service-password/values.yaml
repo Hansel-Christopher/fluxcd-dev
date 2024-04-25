@@ -10,7 +10,7 @@ spec:
       version: "0.1.0"
       sourceRef:
         kind: HelmRepository
-        name: service-chart
+        name: service-chart-repo
   interval: 50m
   install:
     remediation:

@@ -1,7 +1,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: service-chart
+  name: service-chart-repo
   namespace: services
 spec:
   type: oci
