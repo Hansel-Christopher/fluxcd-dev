@@ -20,5 +20,15 @@ spec:
       repository: hanselchristopher001/password-generator
       pullPolicy: IfNotPresent
       tag: "v1.0.0"
+    ingress:
+      enabled: true
+      className: "nginx"
+      annotations: {}
+      hosts:
+        - host: localhost
+          paths:
+            - path: /
+              pathType: ImplementationSpecific
+      tls: []
 
 
