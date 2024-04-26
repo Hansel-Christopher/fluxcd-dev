@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      version: "0.6.0"
+      version: "0.7.0"
   values:
     fullnameOverride: "password-generator"
     replicaCount: 3
@@ -20,7 +20,7 @@ spec:
     image:
       repository: hanselchristopher001/password-generator
       pullPolicy: IfNotPresent
-      tag: "v0.7.0"
+      tag: "v0.4.0"
     ingress:
       enabled: true
       className: "nginx"
