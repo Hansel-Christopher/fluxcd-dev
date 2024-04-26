@@ -8,6 +8,7 @@ spec:
     spec:
       version: "0.3.0"
   values:
+    fullnameOverride: "password-generator"
     replicaCount: 3
     resources:    
       requests:
@@ -23,7 +24,9 @@ spec:
     ingress:
       enabled: true
       className: "nginx"
-      annotations: {}
+      annotations:
+        nginx.ingress.kubernetes.io/use-regex: "true"
+        nginx.ingress.kubernetes.io/rewrite-target: /$2        
       hosts:
         - host: localhost
           paths:
