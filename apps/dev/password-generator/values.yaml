@@ -31,7 +31,7 @@ spec:
         - host: localhost
           paths:
             - path: /
-              pathType: ImplementationSpecific
+              pathType: Prefix
       tls: []
 
 
