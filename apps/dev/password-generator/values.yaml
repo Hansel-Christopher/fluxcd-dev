@@ -6,7 +6,7 @@ metadata:
 spec:
   chart:
     spec:
-      version: "0.8.0"
+      version: "1.0.0"
   values:
     fullnameOverride: "password-generator"
     replicaCount: 3
@@ -24,8 +24,6 @@ spec:
     ingress:
       enabled: true
       className: "nginx"
-      annotations:
-        nginx.ingress.kubernetes.io/use-regex: "true"
       hosts:
         - host: localhost
           paths:
