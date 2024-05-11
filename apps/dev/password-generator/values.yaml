@@ -40,7 +40,7 @@ spec:
         memory:
           value: "80"
     blueGreen:
-      autoPromotionEnabled: false
+      autoPromotionEnabled: "false"
       scaleDownDelaySeconds: 60
 
 
