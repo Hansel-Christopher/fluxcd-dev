@@ -20,7 +20,7 @@ spec:
     image:
       repository: hanselchristopher001/password-generator
       pullPolicy: IfNotPresent
-      tag: d62ca8b
+      tag: 594824a
     ingress:
       enabled: true
       className: "nginx"
